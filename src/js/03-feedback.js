@@ -55,6 +55,6 @@ const feedbackFormElChange = throttle(event => {
         event.currentTarget.reset();
     };
 
-feedbackFormEl.addEventListener('change', feedbackFormElChange);
+feedbackFormEl.addEventListener('input', feedbackFormElChange);
 feedbackFormEl.addEventListener('submit', feedbackFormElSubmit);
 
